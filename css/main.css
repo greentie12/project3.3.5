@@ -1,0 +1,151 @@
+body {
+    background-color: #ddd3ee;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #f2eff9;
+    border-bottom: 2px solid #e3dcf2;
+}
+
+#instruct {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 20px;
+    color: #770064;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headline h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: #770064;
+}
+
+.cards {
+    position: static;
+    float: left;
+    margin-left: 3px;
+    background: #770064;
+    display: block;
+} 
+
+.cards2 {
+    position: static;
+    float: left;
+    margin-left: 3px;
+    background: #770064;
+    display: block;
+} 
+
+img {
+    height: 320px;
+    width: 260px;
+    display: inline;
+    /*opacity: 0.8; */
+}
+
+.sidebar {
+    width: 400px;
+    height: 640px;
+    /*border: 1px solid blue; */
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: inline-block;
+    /*font-family: 'Rubik', sans-serif;*/
+    /*font-size: 22px; */
+}
+
+.sidebar p {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 25px;
+    color: #2a203b;
+    font-weight: bold;
+}
+
+.sidebar h1 {
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #5F0050;
+}
+
+#button_spec {
+    padding-left: 10px;
+    margin: auto;
+}
+
+#submit {
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #38959a;
+    border: none;
+    padding: 4px 10px;
+    font-size: 14px;
+    display: none;
+    margin: auto;
+}
+
+#countDiv {
+    width: 400px;
+    height: 640;
+    position: absolute;
+    top: 750px;
+}
+
+#countDiv p {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    color: #5F0050;
+}
+
+#page2 {
+    background-color: black;
+}
+
+#win {
+    width: 1030px;
+    height: 650px;
+    margin: auto;
+}
+
+#win img {
+    width: 1024px;
+    height: 640px;
+}
+
+#play {
+    width: 100%;
+    margin: auto;
+}
+
+#play p {
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 30px;
+    color: #f4fe00;
+    font-weight: bold;
+}
+
+#play a {
+    text-decoration: none;
+}
+
+#play2 p {
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 30px;
+    color: #f1b371;
+    font-weight: bold;
+}
+
+#play2 a {
+    text-decoration: none;
+}
